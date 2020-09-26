@@ -17,7 +17,7 @@
             </div>
             <div class="form">
                 <table>
-                    <tr><Form name="form" onsubmit="validateForm()" action="index.html">
+                    <tr><Form name="form" action="index.html">
 
                         <tr><td>Enter your day of Birthday:</td>
 
@@ -25,11 +25,11 @@
                         <tr><td>Enter your Month of Birthday:</td>
                             <td><input type="number" id="month" required></input></td></tr>
                             <tr><td>Enter the year you were born:</td>
-                                <td><input type="number" id="months" required></input></td></tr>
+                                <td><input type="number" id="year" required></input></td></tr>
                         <tr><td>Choose your gender:</td></tr>
                         <tr><td>Female:</td><td><input type="radio" id ="Female" name="gender" value="Female" required></input/></td></tr>
                       <tr><td>Male:</td><td><input type="radio" id="male" name="gender" value="female" required></input></td></tr>
-                        <tr></tr><td><input type="submit" value="Submit"></input></td>
+                        <tr></tr><td><input type="submit" value="Submit" onclick="result();"></input></td>
                     </Form></tr>
                 </table>
             </div>
