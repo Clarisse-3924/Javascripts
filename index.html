@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Knowing your name Acording to week days</title>
-        <style rel="stylesheet" type="text/css" href="css/style.css"></style>
+        <link rel="stylesheet" href="css/bootstrap.css">
     </head>
     <body>
         <div class="Container">
@@ -27,15 +27,16 @@
                             <td><input type="number" id="month" required></input></td></tr>
                             <tr><td>Enter the year you were born:</td>
                                 <td><input type="number" id="year" required></input></td></tr>
+                                <tr><td>Enter the century:</td>
+                                    <td><input type="number" id="century" required></input></td></tr>
                         <tr><td>Choose your gender:</td></tr>
-                        <tr><td>Female:</td><td><input type="radio" id ="Female" name="gender" value="Female" required></input/></td></tr>
-                      <tr><td>Male:</td><td><input type="radio" id="male" name="gender" value="female" required></input></td></tr>
-                        <tr></tr><td><input type="submit" value="submit" onsubmit="result();"></input></td>
-                    </Form></tr>
+                        <tr><td>Female:</td><td><input type="radio" id ="female" name="gender" value="female" required></input/></td></tr>
+                      <tr><td>Male:</td><td><input type="radio" id="male" name="gender" value="male" required></input></td></tr>
+                        <tr></tr><td><input type="submit" value="submit" onclick="result()"></input></td>
+                    </form></tr>
                 </table>
             </div>
-        </div>
-        <script src="js/index.js"></script>
+        </div>  
     </body>
-    
+    <script src="js/index.js"></script>
 </html>
