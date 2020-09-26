@@ -4,10 +4,9 @@ function result(){
   var y = document.getElementById("year").value;
   var gender=document.querySelector('input["name="gender"]:checked').value;
 
-  var days = ["monday","tuesday","wesday","thursday","friday","surtday","sunday"];
-var gender=
-
-
+  var days = ["sunday","monday","tuesday","Wednesday","thursday","friday","surtday"];
+  var maleNames=[" Kwasi","Kwadwo","Kwabena","Kwaku","Yaw"," Kofi","Kwame"];
+var femaleNames=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 
 
   if(d <= 0 && d>31){
