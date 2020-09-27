@@ -6,6 +6,7 @@ html{background-image: url("image/web.jpeg");}
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
+    opacity: 1;
 }
 .form{
     box-shadow:5px 5px 20px;
