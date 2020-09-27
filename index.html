@@ -3,10 +3,11 @@
     <head>
         <title>Knowing your name Acording to week days</title>
         <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <div class="Container">
-            <div>
+            <div class="a">
                 <h1>Game!!!!</h1>
                 <h2>LETS PLAY A SHORT GAME!!!</h2>
                 <p>You are required to Enter you Birthday and then you choose<br>
@@ -32,9 +33,12 @@
                         <tr><td>Choose your gender:</td></tr>
                         <tr><td>Female:</td><td><input type="radio" id ="female" name="gender" value="female" required></input/></td></tr>
                       <tr><td>Male:</td><td><input type="radio" id="male" name="gender" value="male" required></input></td></tr>
-                        <tr></tr><td><input type="submit" value="submit" onclick="result()"></input></td>
+                          <tr><td><button type ="button" onclick="result();"style="color:blue">Post</button></td></tr>
                     </form></tr>
                 </table>
+                <p class="x"> Your post:<br>
+                    <span id="results" style="color:red">
+                    </p>
             </div>
         </div>  
     </body>
