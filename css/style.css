@@ -1,4 +1,4 @@
-html{background-image: url("web.jpeg");}
+html{background-image: url("image/web.jpeg");}
 .form{
     box-shadow:5px 5px 20px;
     border-radius:15px;
@@ -33,6 +33,9 @@ html{background-image: url("web.jpeg");}
     padding:20px;
     margin-top:0px;
     flex-direction:row;
-     justify-content:space-around;
      border-radius:20px;
+     justify-content:space-around;
  }
+
+ #Contact:hover {opacity: 9;
+    background-color: blue;}
