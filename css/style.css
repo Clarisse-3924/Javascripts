@@ -24,3 +24,15 @@ html{background-image: url("web.jpeg");}
       box-shadow:5px 5px 20px;
     border-radius:15px;
   }
+  #Contact{
+    display: flex;
+    position:static;
+    border:10px solid black;
+    background-color:grey;
+    color:white;
+    padding:20px;
+    margin-top:0px;
+    flex-direction:row;
+     justify-content:space-around;
+     border-radius:20px;
+ }
