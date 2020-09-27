@@ -1,15 +1,9 @@
 # Javascripts
-project:Kan names
-
-Project description:This project is all  about returning the akan names according to the date of thier birthday as well as thier gender.Indeed, you will enter your birthday dates and then you choose your gender and then you get your akan Name, this was a Ghanian culture where the give thier children names according to the day the born at and thier gender.
-
 Author:Clarisse Uwizeyimana
 Date:27th september 2020
+Project:Kan names [clcik here to see this game](https://clarisse-3924.github.io/Javascripts/)
 
-
-[clcik here](https://clarisse-3924.github.io/Javascripts/)
-
-
+Project description:This project is all  about returning the akan names according to the date of thier birthday as well as thier gender.Indeed, you will enter your birthday dates and then you choose your gender and then you get your akan Name, this was a Ghanian culture where the give thier children names according to the day the born at and thier gender.
 
 #Setup instructions
  Open Terminal (Ctrl+Alt+T)
