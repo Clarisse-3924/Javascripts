@@ -1,8 +1,18 @@
 html{background-image: url("image/web.jpeg");}
-.form{
+.Container{
     box-shadow:5px 5px 20px;
     border-radius:15px;
     background-color: white;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.form{
+    box-shadow:5px 5px 20px;
+    border-radius:15px;
+    background-color:lightgrey;
+    opacity: 9;
+    padding:20px;
 }
 @media only screen and (min-width: 768px) {
     /* For desktop: */
@@ -24,6 +34,10 @@ html{background-image: url("image/web.jpeg");}
       box-shadow:5px 5px 20px;
     border-radius:15px;
   }
+  .a{box-shadow:5px 5px 20px;
+    border-radius:15px;
+    padding:20px;
+    }
   #Contact{
     display: flex;
     position:static;
@@ -39,3 +53,4 @@ html{background-image: url("image/web.jpeg");}
 
  #Contact:hover {opacity: 9;
     background-color: blue;}
+    span{font-size:30px;}
